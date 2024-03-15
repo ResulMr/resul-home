@@ -1,0 +1,153 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #1B1C31;
+    }
+    .input{
+        background-color: #1B1C31;
+    }
+    .btn{
+        background-color: #1B1C31;
+    }
+    .card{
+        background-color: #222338;
+    }
+
+}
+
+.img{
+    padding-right: 170px;
+    padding-left: 24px;
+}
+.h2{
+    color: white;
+    font-size: 24px; 
+    line-height: 36px;
+    letter-spacing: -3%;
+    padding-left: 24px;
+    padding-top: 32px;
+}
+.input{
+    
+    color: white;
+    border: 1px solid;
+    height: 52px;
+    width: 252px;
+    border-radius: 10px;
+    padding-left: 24px;
+    position: relative;
+    
+}
+.icon{
+    color: white;
+    position: absolute;
+    padding-top: 20px;
+    left: 238px;
+    
+}
+.setting{
+    color: white;
+   
+
+}
+.btn{
+   
+    padding: 14px;
+    gap: 24px;
+    border-radius: 10px;
+    
+}
+.divver{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    color: white;
+    font-size: 24px; 
+    line-height: 36px;
+    letter-spacing: -3%;
+    padding-left: 24px;
+    padding-top: 32px
+}
+.left{
+    height: 24px;
+    width: 24px;
+    color: rgb(215, 215, 215);
+    padding-top: 44px;
+    padding-left: 76px;
+}
+.lefth{
+    height: 24px;
+    width: 24px;
+    color: white;
+    padding-top: 44px;
+    padding-left: 26px;
+    padding-bottom: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card{
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    
+    flex: 1;
+    min-width: 160px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.imgdiv{
+padding: 10px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img{
+    font-size: 50px;
+    padding-left: 20px;
+    top: 100px;
+   
+}
+.text{
+ display: flex;   
+ align-items: center;
+justify-content: center;
+flex-direction: column;
+
+   
+}
+.title{
+    font-size: 16px;
+    line-height: 24px;
+    color: #EBEDFA;
+   letter-spacing: -2%;
+   font-weight: 600;
+   
+}
+.titles{
+    font-size: 12px;
+    line-height: 15,12px;
+    color: #EBEDFA80;
+   letter-spacing: -2%;
+   font-weight: 400;
+   
+}
+
+
